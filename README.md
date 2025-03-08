@@ -3,6 +3,8 @@
 
 A sleek and feature-rich TODO application built with React (Vite), Redux, TailwindCSS, and Framer Motion. The app allows users to add, manage, and prioritize tasks, while also fetching real-time weather updates based on the entered city.
 
+**Link of Live Site -->**https://todo-tpr9.vercel.app
+
 **🚀 Features**
 
 ✅ Task Management – Add and organize tasks efficiently
