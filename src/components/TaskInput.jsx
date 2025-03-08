@@ -9,11 +9,12 @@ function TaskInput() {
   const [weather, setWeather] = useState(null);
   const [location, setLocation] = useState("");
   const dispatch = useDispatch();
+  const API_KEY = import.meta.env.VITE_API_KEY
 
   useEffect(() => {
     if (location.trim()) {
       fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=edf061ab16cb2e70eede736f0088868c`
+        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
       )
         .then((response) => response.json())
         .then((data) => setWeather(data))
