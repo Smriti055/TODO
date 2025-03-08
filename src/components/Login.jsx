@@ -17,7 +17,7 @@ function Login() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => dispatch(logout())}
-            className="bg-red-500 text-white px-4 py-2 rounded-lg font-bold shadow-md transition-all"
+            className="bg-red-500 text-white px-2 py-1 rounded-lg font-bold shadow-md transition-all"
           >
             Logout 🚪
           </motion.button>
