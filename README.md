@@ -41,7 +41,9 @@ npm install
 
 Create a .env file in the root directory and add your OpenWeather API key VITE_API_KEY=your_openweather_api_key 
 
-4️⃣ Run the Development Server npm run dev The app will be available at http://localhost:5173. 
+4️⃣ Run the Development Server npm run dev 
+
+The app will be available at http://localhost:5173. 
 
 **🚀 Deployment on Vercel**
 
