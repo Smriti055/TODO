@@ -12,7 +12,7 @@ function Login() {
     <div className="relative w-full flex flex-col items-center gap-6 mt-8">
       {/* Logout Button (Only visible when logged in) */}
       {isAuthenticated && (
-        <div className="absolute top-4 right-4 sm:top-0 sm:right-0 mt-5 z-10">
+        <div className="absolute top-4 right-4 sm:top-0 sm:right-0 mb-3 mt-2 z-10">
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
