@@ -1,12 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        neonGreen: "#00ff00", // Bright green for buttons & highlights
+        darkBg: "#0d0d0d", // Dark black background
+      },
+    },
   },
   plugins: [],
-}
-
+};
